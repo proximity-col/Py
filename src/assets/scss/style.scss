@@ -1,0 +1,147 @@
+$negro: #333333;
+$rojo: #EF161A;
+$gris: #F8F8F8;
+$gris2: #676666;
+$blue: #04344C;
+//COLORES
+.black{ color: $negro;}
+.red{color: $rojo;}
+.gray{color: $gris;}
+.gray2{color: $gris2;}
+.blue{color: $blue;}
+.white{color: #fff;}
+
+//COLORES PYMAS NORMAL
+.blue{ color: #2D5168;}
+.blue2{color: #56A7E0;}
+
+// TAMAÑOS DE LETRA
+.f-8{font-size: 8px;}
+.f-9{font-size: 9px;}
+.f-10{font-size: 10px;}
+.f-11{font-size: 11px;}
+.f-12{font-size: 12px;}
+.f-13{font-size: 13px;}
+.f-14{font-size: 14px;}
+.f-15{font-size: 15px;}
+.f-16{font-size: 16px;}
+.f-17{font-size: 17px;}
+.f-18{font-size: 18px;}
+.f-19{font-size: 19px;}
+.f-20{font-size: 20px;}
+.f-21{font-size: 21px;}
+.f-22{font-size: 22px;}
+.f-23{font-size: 23px;}
+.f-24{font-size: 24px;}
+.f-25{font-size: 25px;}
+.f-26{font-size: 26px;}
+.f-27{font-size: 27px;}
+.f-28{font-size: 28px;}
+.f-29{font-size: 29px;}
+.f-30{font-size: 30px;}
+
+
+//INTERLINEADO
+.lg-26{
+    line-height: 26px;
+}
+
+//ESTILOS GENERALES
+.lg-19{
+  line-height: 19px;
+}
+.bold{
+  font-weight: bold;
+}
+.justify{
+  text-align: justify;
+}
+.padding-left{padding-left: calc(72px - 26px);}
+.padding-right{padding-right:  calc(72px - 26px);}
+.padding-left2{padding-left: calc(72px - 46px);}
+.padding-right2{padding-right:  calc(72px - 46px);}
+
+
+//BOTON ROJO
+table.button.alert table a {
+  border: 0 solid #EF161A ;
+  border-radius: 5px;
+}
+table.button.alert:hover table td {
+   background: #EF161A ;
+ }
+table.button.alert table td {
+  background: #EF161A ;
+  border: 0px solid #EF161A ;
+  border-radius: 5px;
+}
+
+// BOTON BLANCO
+table.button.primary table a {
+  border: 1px solid $rojo ;
+  border-radius: 5px;
+  color: $rojo;
+}
+
+table.button.primary table a:hover {
+  border: 1px solid $rojo ;
+  border-radius: 5px;
+  color: $rojo;
+}
+table.button.primary:hover table td {
+   background: #fff ;
+ }
+table.button.primary table td {
+  background: #fff ;
+  border: 0px solid $rojo ;
+  border-radius: 5px;
+}
+
+//BOTON PYMAS NORMAL
+table.button.warning table a {
+  border: 0 solid #EC1A3F;
+  border-radius: 25px;
+}
+table.button.warning:hover table td {
+   background: #EC1A3F ;
+ }
+table.button.warning table td {
+  background: #EC1A3F;
+  border: 0px solid #EF161A ;
+    border-radius: 25px;
+}
+
+//BOTON PYMAS NORMAL v2
+table.button.warning2 table a {
+    border: 0 solid #EC1A3F;
+    border-radius: 25px;
+    padding: 11px 35px;
+    font-size: 15px;
+}
+table.button.warning2:hover table td {
+   background: #EC1A3F ;
+ }
+table.button.warning2 table td {
+  background: #EC1A3F;
+  border: 0px solid #EF161A ;
+    border-radius: 25px;
+}
+
+
+//BOTON PYMAS NORMAL v2
+table.button.secondary table a {
+    border: 0 solid #0174FC;
+    border-radius: 25px;
+    padding: 11px 35px;
+    font-size: 15px;
+}
+table.button.secondary:hover table td {
+   background: #EC1A3F ;
+ }
+table.button.secondary table td {
+  background: #0174FC;
+  border: 0px solid #0174FC ;
+    border-radius: 25px;
+}
+
+
